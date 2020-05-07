@@ -5,8 +5,7 @@
 
 
 class record():
-    def __init__(self,_id,date,_type,area,dot,diseases,medicine):
-        self._id = _id
+    def __init__(self,date,_type,area,dot,diseases,medicine):
         self._date = date
         self._type = _type
         self._area = area
